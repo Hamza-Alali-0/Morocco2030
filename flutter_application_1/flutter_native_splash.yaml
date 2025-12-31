@@ -1,0 +1,24 @@
+flutter_native_splash:
+  # Background color
+  color: "#FDCB00"
+
+  # Your app logo (keep it simple like Glovo)
+  image: assets/images/logomaroc2030.png
+
+  # Customize for Android 12
+  android_12:
+    # Make sure colors match exactly
+    icon_background_color: "#FDCB00"
+    image: assets/images/logomaroc2030.png
+
+  # Fullscreen mode
+  fullscreen: true
+
+  # Use center positioning
+  android_gravity: center
+  ios_content_mode: center
+
+  # IMPORTANT: Ensure proper aspect ratio - the logo should be:
+  # - High resolution (1024x1024 source file)
+  # - Simple design
+  # - Proper padding (about 20% on all sides)
