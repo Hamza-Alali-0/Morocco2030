@@ -35,8 +35,9 @@
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
-<a href="https://github.com/Hamza-Alali-0/BudgetPlanner">
-    <img src="screens/user/home/home.png" alt="Home Page" width="600">
+
+<a href="https://github.com/Hamza-Alali-0/Morocco2030">
+    <img src="screens/HOMEPAGE.jpg" alt="Home Page" width="600">
 </a>
 
 Morocco 2030 is a comprehensive tourism and city exploration mobile application built with Flutter and Firebase. The platform enables users to discover Moroccan cities, monuments, restaurants, activities, and local experiences. Key features include:
@@ -56,14 +57,15 @@ Morocco 2030 is a comprehensive tourism and city exploration mobile application 
 
 This project is built with the following technologies:
 
-* [![Flutter][Flutter.com]][Flutter-url]
-* [![Dart][Dart.com]][Dart-url]
-* [![Firebase][Firebase.com]][Firebase-url]
-* [![Google Maps][GoogleMaps.com]][GoogleMaps-url]
-* [![Android][Android.com]][Android-url]
-* [![iOS][iOS.com]][iOS-url]
+- [![Flutter][Flutter.com]][Flutter-url]
+- [![Dart][Dart.com]][Dart-url]
+- [![Firebase][Firebase.com]][Firebase-url]
+- [![Google Maps][GoogleMaps.com]][GoogleMaps-url]
+- [![Android][Android.com]][Android-url]
+- [![iOS][iOS.com]][iOS-url]
 
 <!-- Reference-style links for images -->
+
 [Flutter.com]: https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white
 [Flutter-url]: https://flutter.dev/
 [Dart.com]: https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white
@@ -121,13 +123,14 @@ The application is structured with the following key components:
 
 Here are some screenshots of the project:
 
-| Home Screen         | City Details          | Activities |
-| ------------------- | --------------------- | -------------------- |
-| ![home][hotel-img] | ![detail][hotel2-img] | ![activities][hotel3-img]  |
+| Home Screen        | City Details          | Activities                |
+| ------------------ | --------------------- | ------------------------- |
+| ![home][hotel-img] | ![detail][hotel2-img] | ![activities][hotel3-img] |
 
-[hotel-img]: screens/Admin/admin_dashboard.png
-[hotel2-img]: screens/user/home/home2.png
-[hotel3-img]: screens/user/RESERVATION2.png
+[hotel-img]: screens/restaurants.jpg
+[hotel2-img]: screens/HOMEPAGE2.jpg
+[hotel3-img]: screens/tendance.jpg
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
@@ -149,7 +152,7 @@ To run the project locally, follow these steps.
 1. Clone the repository
 
 ```sh
-git clone https://github.com/Hamza-Alali-0/morocco2030.git
+git clone https://github.com/Hamza-Alali-0/Morocco2030.git
 cd flutterappfinal/flutter_application_1
 ```
 
@@ -160,6 +163,7 @@ flutter pub get
 ```
 
 3. Configure Firebase:
+
    - Add your `google-services.json` (Android) to `android/app/`
    - Add your `GoogleService-Info.plist` (iOS) to `ios/Runner/`
    - Update `firebase_options.dart` with your Firebase configuration
@@ -192,6 +196,7 @@ flutter build web
 ### Firebase Configuration
 
 Ensure your Firebase project has the following enabled:
+
 - Authentication (Email/Password and Google Sign-In)
 - Cloud Firestore
 - Firebase Storage
@@ -210,6 +215,6 @@ Connect with me:
 - <a href="https://github.com/hamza-alali-0" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
 - <a href="https://www.instagram.com/alalihamza.0/" target="_blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"></a>
 
-Project Link: [https://github.com/Hamza-Alali-0/morocco2030.git](https://github.com/Hamza-Alali-0/morocco2030.git)
+Project Link: [https://github.com/Hamza-Alali-0/Morocco2030.git](https://github.com/Hamza-Alali-0/Morocco2030.git)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
